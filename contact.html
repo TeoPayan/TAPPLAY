@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>TAPP Audio Slapps</title>
+        <link href="css/styles.css" rel="stylesheet" type="text/css">
+    </head>
+    <body>
+        <div class="header">
+            <h1 class="logo"><a href="index.html">TAPPLAY</a></h1>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="artists/allArtists.html">Artists</a></li>
+                <li><a href="playlists/allPlaylists.html">Playlists</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </div>   
+        <form action="">
+            <fieldset>
+                <legend><h2>Contact Me:</h2></legend>
+                <fieldset>
+                    <legend>Your Info:</legend>
+                    <label>Name:<input type="text" name="name" placeholder="Your Name" required="required"></label>
+                    <br />
+                    <label>Email:<input type="email" name="email" placeholder="JohnDoe@email.com" required="required"></label>
+                    <br />
+                    <label>
+                        Region:
+                        <select name="region">
+                            <option value="canada">Canada</option>
+                            <option value="mexico">Mexico</option>
+                            <option value="usa">United States</option>
+                        </select>
+                    </label>
+                </fieldset>
+                <br />
+                <fieldset>
+                    <legend>Message:</legend>
+                    <label>Message: <br /><textarea name="message" required="required" cols="40" rows="4" placeholder="Enter message here..."></textarea></label>
+                    <br />
+                    <p>
+                        Remain Anynomous?
+                        <br />
+                        <label>
+                            <input type="radio" name="anonymous?" value="no" checked="checked">
+                            No
+                        </label>
+                        <label>
+                            <input type="radio" name="anonymous?" value="yes">
+                            Yes
+                        </label>
+                    </p>
+                </fieldset>
+                <label>
+                    <input type="checkbox" name="newsletter" checked="checked">
+                    Receive Newsletter Updates!
+                </label>
+                <br />
+                <input type="submit" name="submit" value="Submit Form">
+            </fieldset>
+        </form>
+        <footer>&copy;2025 TAPP Don't Steal My Stuff</footer>
+    </body>
+</html>
