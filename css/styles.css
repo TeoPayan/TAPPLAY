@@ -56,3 +56,23 @@ img {
     min-width: 100%;
     height: auto;
 }
+@media (max-width: 600px) {
+    .header ul {
+      display: block;
+      text-align: center;
+    }
+  
+    .header ul li {
+      display: block;
+      margin: 10px 0;
+    }
+  
+    .featured table {
+      width: 100%;
+    }
+  
+    .featured td {
+      display: block;
+      width: 100%;
+    }
+}
