@@ -29,10 +29,10 @@ a {
     height: 600px;
     color: white;
     text-align: center;
-    h2 {
-        font-size: 50px;
-        padding-top: 250px;
-    }
+}
+.opening h2 {
+    font-size: 50px;
+    padding-top: 250px;
 }
 .button {
     color: white;
@@ -43,10 +43,10 @@ a {
 }
 table {
     margin: 0 auto;
-    img {
-        max-width: 200px;
-        height: auto;
-    }
+}
+table img {
+    max-width: 200px;
+    height: auto;
 }
 .artist-grid img {
     max-height: 600px;
