@@ -51,7 +51,7 @@ table img {
 .artist-grid img {
     max-height: 600px;
 }
-img {
+.cover_image {
     max-width: 100%;
     min-width: 100%;
     height: auto;
