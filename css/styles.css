@@ -5,32 +5,39 @@ body {
     max-width: 1200px;
     margin: 0 auto;
 }
+
 main {
     margin-bottom: 100px;
 }
+
 footer {
     margin-top: 50px;
     padding: 20px;
     text-align: center;
 }
+
 a {
     text-decoration: none;
     color: black;
 }
+
 header {
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
+
 header ul {
     list-style: none;
     padding: 0;
     margin: 0;
 }
+
 header li {
     display: inline;
     margin-right: 15px;
 }
+
 .opening {
     background-image: url('../images/frontGradient.jpg');
     height: 600px;
@@ -41,14 +48,17 @@ header li {
     justify-content: center;
     align-items: center;
 }
+
 .opening h2 {
     font-size: 50px;
     margin: 0;
 
 }
+
 h2.no-bar::before {
     content: none;
 }
+
 .button {
     color: white;
     font-size: 15px;
@@ -56,19 +66,23 @@ h2.no-bar::before {
     background-color: rgb(233, 70, 26);
     border-radius: 7px;
 }
+
 h1::before, h2::before, h3::before {
     content: "|";
 }
+
 .content-grid-playlists {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     text-align: left; 
 }
+
 .content-grid-artists {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     text-align: left; 
 }
+
 .artist-block img {
     width: 240px;
     height: 300px;
@@ -76,6 +90,7 @@ h1::before, h2::before, h3::before {
     object-fit: cover;
     display: block;
 }
+
 .playlist-block img {
     width: 320px;
     height: 180px;
@@ -83,15 +98,18 @@ h1::before, h2::before, h3::before {
     object-fit: cover;
     display: block;
 }
+
 .button-wrapper {
     padding-top: 10px;
     text-align: center;
 }
+
 .cover_image {
     max-width: 100%;
     min-width: 100%;
     height: auto;
 }
+
 @media (max-width: 600px) {
     header ul {
         display: block;
@@ -126,7 +144,7 @@ h1::before, h2::before, h3::before {
     .playlist-block img {
         width: 100%;
         height: auto;
-      }
+    }
 
     .content-grid-playlists {
         grid-template-columns: 1fr;
