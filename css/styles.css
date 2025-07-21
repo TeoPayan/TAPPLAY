@@ -76,6 +76,13 @@ h1::before, h2::before, h3::before {
     object-fit: cover;
     display: block;
 }
+.playlist-block img {
+    width: 320px;
+    height: 180px;
+    border-radius: 7px;
+    object-fit: cover;
+    display: block;
+}
 .button-wrapper {
     padding-top: 10px;
     text-align: center;
@@ -97,26 +104,26 @@ h1::before, h2::before, h3::before {
     }
 
     .opening {
-        height: 400px; /* shorter for small screens */
+        height: 400px;
     }
 
     .opening h2 {
         font-size: 32px;
-        padding-top: 0; /* remove crude padding */
+        padding-top: 0;
     }
 
     .content-grid-artists {
-        grid-template-columns: repeat(2, 1fr); /* 2 per row on mobile */
+        grid-template-columns: repeat(2, 1fr);
         gap: 15px;
         justify-items: center;
     }
 
     .artist-block img {
-        width: 100%; /* scale to container */
-        height: auto; /* keep aspect ratio */
+        width: 100%;
+        height: auto;
     }
 
     .content-grid-playlists {
-        grid-template-columns: 1fr; /* 1 column for mobile */
+        grid-template-columns: 1fr;
     }
 }
