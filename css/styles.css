@@ -123,6 +123,11 @@ h1::before, h2::before, h3::before {
         height: auto;
     }
 
+    .playlist-block img {
+        width: 100%;
+        height: auto;
+      }
+
     .content-grid-playlists {
         grid-template-columns: 1fr;
     }
