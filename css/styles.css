@@ -71,12 +71,15 @@ h1::before, h2::before, h3::before {
     content: "|";
 }
 
+.featured-playlist {
+    margin-top: 15px;
+}
+
 .content-grid-playlists {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     text-align: left;
     margin-bottom: 15px;
-    margin-top: 15px;
 }
 
 .content-grid-artists {
