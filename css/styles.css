@@ -76,6 +76,7 @@ h1::before, h2::before, h3::before {
     grid-template-columns: repeat(3, 1fr);
     text-align: left;
     margin-bottom: 15px;
+    margin-top: 15px;
 }
 
 .content-grid-artists {
