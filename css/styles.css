@@ -71,8 +71,8 @@ h1::before, h2::before, h3::before {
     content: "|";
 }
 
-.featured-playlist {
-    margin-top: 15px;
+.featured-playlists {
+    margin-top: 30px;
 }
 
 .content-grid-playlists {
